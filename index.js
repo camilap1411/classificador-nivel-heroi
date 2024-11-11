@@ -1,24 +1,24 @@
 var nomeHeroi = "Camila";
 var xpHeroi = 8000;
 
-var nivel;
+var nivelHeroi;
 
 if (xpHeroi <= 1000) {
-    nivel = "Ferro";
+    nivelHeroi = "Ferro";
 } else if (xpHeroi > 1000 && xpHeroi <= 2000) {
-    nivel = "Bronze";
+    nivelHeroi = "Bronze";
 } else if (xpHeroi > 2000 && xpHeroi <= 5000) {
-    nivel = "Prata";
+    nivelHeroi = "Prata";
 } else if (xpHeroi > 5000 && xpHeroi <= 7000) {
-    nivel = "Ouro";
+    nivelHeroi = "Ouro";
 } else if (xpHeroi > 7000 && xpHeroi <= 8000) {
-    nivel = "Platina";
+    nivelHeroi = "Platina";
 } else if (xpHeroi > 8000 && xpHeroi <= 9000) {
-    nivel = "Ascendente";
+    nivelHeroi = "Ascendente";
 } else if (xpHeroi > 9000 && xpHeroi <= 10000) {
-    nivel = "Imortal";
+    nivelHeroi = "Imortal";
 } else if (xpHeroi > 10000) {
-    nivel = "Radiante";
+    nivelHeroi = "Radiante";
 }
 
-console.log("O Herói de nome " + nomeHeroi + " está no nível de " + nivel)
+console.log("O Herói de nome " + nomeHeroi + " está no nível de " + nivelHeroi)
